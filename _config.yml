@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ryersonvisionlab.github.io/perceptual-photomosaic-projpage/" # the base hostname & protocol for your site, e.g. http://example.com
 disqus:
   shortname: perceptual-photomosaic
-google_analytics: UA-74037692-2
+google_analytics: UA-74037692-4
 
 # Build settings
 markdown: kramdown
