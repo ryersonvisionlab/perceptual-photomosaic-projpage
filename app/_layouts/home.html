@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="home-content">
+    <div class="wrapper abstract-wrapper">
+      <h2 class="header abstract-header">Abstract</h2>
+      <p>Photographic mosaics (or simply "photomosaics") are images comprised of smaller, equally-sized image tiles such that when viewed from a distance, the tiled images of the mosaic collectively resemble an image. Inthis paper, we consider the challenge of automatically generating a photomosaic from an input image. Although computer-generated photomosaicking has existed for quite some time, none have considered simultaneously exploiting colour/grayscale intensity and the structure of the input across scales, as well as image semantics. We propose a convolutional network for generating photomosaics guided by a multi-scale perceptual loss to capture colour, structure, and semantics across multiple scales. We show that our approach produces visually pleasing results. Finally, we experiment with generating extremely high resolution photomosaics.</p>
+    </div>
+    <div class="wrapper material-wrapper">
+      <h2 class="header material-header">Material</h2>
+      <div class="wrapper pdf-wrapper">
+        <div class="pdf">
+          <a href="#"><img src="img/twostreamconv_preview.jpg" alt="Convolutional Photomosaic Generation via Multi-Scale Perceptual Losses"><span>Paper (coming soon)</span></a>
+        </div>
+        <div class="pdf">
+          <a href="https://drive.google.com/drive/folders/1PvPkiH3wpxSkFcVOqyhMgsjSjTkGgLJ8">
+            <span class="icon">{% include icon-briefcase.svg %}</span>
+            <span>Supplemental</span>
+          </a>
+        </div>
+        <div class="pdf">
+          <a href="">
+            <span class="icon">{% include icon-github.svg %}</span>
+            <span>Code (coming soon)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper author-col-wrapper">
+      <h2 class="header author-header">Authors</h2>
+      <div class="author-col author-col-1">{% include profile.html profile_image="mat.png" name="Matthew Tesfaldet" email="mtesfald@eecs.yorku.ca" twitter="mtesfald" github="tesfaldet" website="http://mtesfaldet.net/" %}</div>
+      <div class="author-col author-col-1">{% include profile.html profile_image="nar.jpg" name="Nariman Saftarli" email="nsaftarli@ryerson.ca" twitter="nsaftarli" github="nsaftarli" website="#" %}</div>
+      <div class="author-col author-col-2">{% include profile.html profile_image="mab.png" name="Marcus A. Brubaker" email="mab@eecs.yorku.ca" twitter="marcusabrubaker" github="mbrubake" website="http://www.eecs.yorku.ca/~mab/"%}</div>
+      <div class="author-col author-col-3">{% include profile.html profile_image="kosta.jpg" name="Konstantinos G. Derpanis" email="kosta@scs.ryerson.ca" twitter="CSProfKGD" website="http://www.scs.ryerson.ca/~kosta/" %}</div>
+    </div>
+    <div class="wrapper citation-wrapper">
+      <h2 class="header citation-header">Citation</h2>
+      {% capture my_include %}{% include citation.md %}{% endcapture %}{{ my_include | markdownify }}
+    </div>
+  </div>
+</div>
